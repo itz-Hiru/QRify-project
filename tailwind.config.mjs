@@ -16,6 +16,9 @@ export default {
       },
       colors: {
         primary: "#000",
+        accent: {
+          DEFAULT: "#FDFDFD"
+        }
       },
       borderRadius: {
         lg: 'var(--radius)',
