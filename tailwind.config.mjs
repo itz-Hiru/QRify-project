@@ -18,9 +18,9 @@ export default {
         primary: "#000",
       },
       borderRadius: {
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
+        lg: 'var(--radius)',
+				md: 'calc(var(--radius) - 2px)',
+				sm: 'calc(var(--radius) - 4px)'
       },
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
