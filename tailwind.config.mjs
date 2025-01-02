@@ -17,7 +17,7 @@ export default {
       colors: {
         primary: "#000",
         accent: {
-          DEFAULT: "#FDFDFD"
+          DEFAULT: "#BCBCBC"
         }
       },
       borderRadius: {
