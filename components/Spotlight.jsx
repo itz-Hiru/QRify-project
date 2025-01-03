@@ -11,7 +11,7 @@ const SpotlightWrapper = () => {
       />
       <SpotlightEffect
         className="h-[80vh] w-[50vw] top-10 left-[calc(100%-50vw)] max-w-full"
-        fill="purple"
+        fill="#FF00F5"
       />
       <SpotlightEffect
         className="left-80 top-28 h-[80vh] w-[50vw] max-w-full"

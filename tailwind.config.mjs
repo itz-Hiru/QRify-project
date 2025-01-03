@@ -17,8 +17,12 @@ export default {
       colors: {
         primary: "#000",
         accent: {
-          DEFAULT: "#BCBCBC"
-        }
+          DEFAULT: "#00F0FF",
+          HOVER: "#2D2D2D",
+        },
+        text: {
+          DEFAULT: '#FFF',
+        },
       },
       borderRadius: {
         lg: 'var(--radius)',
