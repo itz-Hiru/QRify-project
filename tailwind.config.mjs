@@ -15,7 +15,7 @@ export default {
         xl: '1200px',
       },
       colors: {
-        primary: "#000",
+        primary: "#fdfdfd",
         accent: {
           DEFAULT: "#00F0FF",
           HOVER: "#2D2D2D",
