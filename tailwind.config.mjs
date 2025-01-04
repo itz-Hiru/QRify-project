@@ -17,7 +17,7 @@ export default {
       colors: {
         primary: "#fdfdfd",
         accent: {
-          DEFAULT: "#00F0FF",
+          DEFAULT: "#0000FF",
           HOVER: "#2D2D2D",
         },
         text: {
