@@ -8,7 +8,7 @@ export default function Home() {
       <div className="container mx-auto h-full overflow-hidden relative">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           <div className="pt-8 order-2 xl:order-none">
-            <h1 className="text-6xl font-bold text-center xl:text-start">
+            <h1 className="text-6xl font-bold text-white text-center xl:text-start">
               QRify
             </h1>
             <p className="text-2xl font-semibold text-accent pt-5">

@@ -14,11 +14,16 @@ export default {
         lg: '960px',
         xl: '1200px',
       },
+      fontFamily: {
+        'geist-sans': ['var(--font-geist-sans)', 'sans-serif'],
+        'geist-mono': ['var(--font-geist-mono)', 'monospace'],
+        'dm-serif': ['"DM Serif Text"', 'serif'],
+        'kantumruy': ['"Kantumruy Pro"', 'sans-serif'],
+      },
       colors: {
-        primary: "#fdfdfd",
+        primary: "#000",
         accent: {
-          DEFAULT: "#0000FF",
-          HOVER: "#2D2D2D",
+          DEFAULT: "#C9F269",
         },
         text: {
           DEFAULT: '#FFF',
