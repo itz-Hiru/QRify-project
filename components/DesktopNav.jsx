@@ -32,7 +32,7 @@ const DesktopNav = () => {
             href={link.path}
             key={index}
             className={`${
-              link.path === pathName && "text-accent border-b-2 border-accent"
+              link.path === pathName && "text-accent border-b-2 border-[#C802FF]"
             } capitalize font-medium hover:text-accent transition-all`}
           >
             {link.name}

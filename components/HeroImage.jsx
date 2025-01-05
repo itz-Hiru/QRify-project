@@ -3,10 +3,10 @@ import Image from "next/image";
 
 const HeroImage = () => {
   return (
-    <div className="relative w-60 h-60 xl:w-[500px] xl:h-[400px] items-center justify-center">
+    <div className="relative w-72 h-52 xl:w-[510px] xl:h-[350px] items-center justify-center">
       <div className="absolute w-full h-full overflow-hidden items-center justify-center">
         <Image
-          src="/assets/home/hero.jpg"
+          src="/assets/home/hero.png"
           fill
           priority
           quality={100}
