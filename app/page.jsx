@@ -1,10 +1,22 @@
 "use client";
 import HeroImage from "@/components/HeroImage";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <section className="h-full">
+    <motion.section
+      initial={{ opacity: 0 }}
+      animate={{
+        opacity: 1,
+        transition: {
+          delay: 0.8,
+          duration: 2,
+          ease: "easeIn",
+        },
+      }}
+      className="h-full"
+    >
       <div className="container mx-auto h-full overflow-hidden relative">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           <div className="pt-8 order-2 xl:order-none">
@@ -34,6 +46,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
