@@ -1,4 +1,6 @@
 "use client"
+import { useState, useRef } from "react"
+import jsQR from "jsqr"
 
 const page = () => {
   return (
